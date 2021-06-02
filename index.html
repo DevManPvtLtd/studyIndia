@@ -19,9 +19,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
     integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
     crossorigin="anonymous"></script>
-
-
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="js/scripts.js"></script>
+
 </head>
 
 </head>
@@ -33,13 +33,13 @@
     <header class="text-gray-600 body-font">
       <div class="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a href="#about-us" class="mr-5 hover:text-gray-900">About Us</a>
-          <a href="#courses" class="mr-5 hover:text-gray-900">Courses</a>
-          <a href="#team" class="mr-5 hover:text-gray-900">Team</a>
-          <a href="#contact-us" class="hover:text-gray-900">Contact Us</a>
+          <a href="#about-us" class="mr-4 hover:text-gray-900">About Us</a>
+          <a href="#product" class="mr-4 hover:text-gray-900">Courses</a>
+          <a href="#team" class="mr-4 hover:text-gray-900">Team</a>
+          <a href="#contact-us" class=" hover:text-gray-900">Contact Us</a>
         </nav>
         <a href="#" class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-          <img src="images/logo.jpeg" width="100%" alt="logo">
+          <img id="logo" src="images/logo.jpeg" alt="logo">
           <span class="ml-3 text-xl">StudyIndia</span>
         </a>
         
@@ -75,15 +75,9 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="text-center mb-20">
         <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">About us</h1>
-        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Study India Badho India is the
-          India’s largest learning platform from Job Seeker, Professionals or an individual searching for dream job,
-          Career Growth or Personal Development, we can enable you to accomplish that! <br>It was founded by Mr Paras 
-          Sachdeva and Mr Lovkesh Sharma in 2018 , headquaters in bengaluru,India. Company runs India’s best 
-          learning platform the provides personalized learning for students , homemakers  , job seeker or personal 
-          enhancement. The company has 10 lac + active students, who are taking advantage of its deep – structured 
-          content and powerful adaptive ideas. Company has experiencedpehnomenal top line growth at a significant 
-          contribution margin ,making it one of the few substainable start- ups in the Indian ecosystem.The company 
-          has sales office in 10+ cities.</p>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Study India Badho India is India’s largest learning platform from Job Seeker, Professionals or an individual searching for the dream job, Career Growth or Personal Development, we can enable you to accomplish that! 
+          It was founded by Mr Paras Sachdeva and Mr Lovkesh Sharma in 2018, with headquarters in Bengaluru, India. The company runs India’s best learning platform the provides personalized learning for students, homemakers, job seeker or personal enhancement.
+          The company has 10 lac + active students, who are taking advantage of its deep–structured content and powerful adaptive ideas. The company has experienced phenomenal top-line growth at a significant contribution margin, making it one of the few sustainable start-ups in the Indian ecosystem. The company has a sales office in 10+ cities.</p>
         <div class="flex mt-6 justify-center">
           <div class="w-16 h-1 rounded-full bg-blue-500 inline-flex"></div>
         </div>
@@ -149,34 +143,47 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-          <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-          <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Animated Night Hill Illustrations</h1>
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Study India</h2>
+          <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Spoken English Course</h1>
           <div class="flex mb-4">
-            <a class="flex-grow text-blue-500 border-b-2 border-blue-500 py-2 text-lg px-1">Description</a>
-            <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
-            <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
+            <p class="flex-grow text-blue-500 border-b-2 border-blue-500 py-2 text-lg px-1">Value we offer include:</p>
+            <!-- <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
+            <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a> -->
           </div>
-          <p class="leading-relaxed mb-4">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam inxigo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.</p>
-          <div class="flex border-t border-gray-200 py-2">
-            <span class="text-gray-500">Color</span>
-            <span class="ml-auto text-gray-900">Blue</span>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">India’s Best Teacher</span>
           </div>
-          <div class="flex border-t border-gray-200 py-2">
-            <span class="text-gray-500">Size</span>
-            <span class="ml-auto text-gray-900">Medium</span>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Learn Basic and Advance English</span>
           </div>
-          <div class="flex border-t border-b mb-6 border-gray-200 py-2">
-            <span class="text-gray-500">Quantity</span>
-            <span class="ml-auto text-gray-900">4</span>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Live personalized classes at your home convenience</span>
           </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Flexible Class Timings</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Study and Practice Material</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Super affordable Price</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Certification of Recoginition</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Chance to Compare ,enhance,and exchange Ideas that gradually develop your confidence level.</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Be an english speaking expert</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">24*7 support on whatsapp </span>
+          </div> 
+        
           <div class="flex">
-            <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
-            <button class="flex ml-auto text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">Button</button>
-            <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-              </svg>
-            </button>
+            <span class="title-font font-medium text-2xl text-gray-900">START WITH JUST ₹999</span>
+            <button class="flex ml-auto text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded"><a  href="#contact-us" >Buy </a></button>
           </div>
         </div>
         <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400">
@@ -189,34 +196,34 @@
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400">
         <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-          <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-          <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Animated Night Hill Illustrations</h1>
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Study India</h2>
+          <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">How to Crack Any Interview?</h1>
           <div class="flex mb-4">
-            <a class="flex-grow text-blue-500 border-b-2 border-blue-500 py-2 text-lg px-1">Description</a>
-            <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
-            <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
+            <p class="flex-grow text-blue-500 border-b-2 border-blue-500 py-2 text-lg px-1">Value we offer include:</p>
+            <!-- <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
+            <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a> -->
           </div>
-          <p class="leading-relaxed mb-4">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam inxigo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.</p>
-          <div class="flex border-t border-gray-200 py-2">
-            <span class="text-gray-500">Color</span>
-            <span class="ml-auto text-gray-900">Blue</span>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Know what and when to speak</span>
           </div>
-          <div class="flex border-t border-gray-200 py-2">
-            <span class="text-gray-500">Size</span>
-            <span class="ml-auto text-gray-900">Medium</span>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">How to Build Resume </span>
           </div>
-          <div class="flex border-t border-b mb-6 border-gray-200 py-2">
-            <span class="text-gray-500">Quantity</span>
-            <span class="ml-auto text-gray-900">4</span>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Prepare for potensial interview questions</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Interview Mode</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">India's Best Teacher</span>
+          </div>
+          <div class="leading-relaxed border-t border-gray-200 py-2">
+            <span class="text-gray-500">Study and Practice Material</span>
           </div>
           <div class="flex">
-            <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
-            <button class="flex ml-auto text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">Button</button>
-            <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-              </svg>
-            </button>
+            <span class="title-font font-medium text-2xl text-gray-900">START WITH JUST ₹999</span>
+            <button class="flex ml-auto text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded"><a  href="#contact-us" >Buy </a></button>
           </div>
         </div>
         
@@ -227,7 +234,7 @@
   <section class="text-gray-600 body-font" id="band">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Speak better, Step up! 🌟</h1>
         <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
       </div>
       <div class="flex flex-wrap -m-4 text-center">
@@ -237,8 +244,8 @@
               <path d="M8 17l4 4 4-4m-4-5v9"></path>
               <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
             </svg>
-            <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
-            <p class="leading-relaxed">Downloads</p>
+            <h2 class="title-font font-medium text-2xl text-gray-900">Speak confidently, anytime!</h2>
+            <p class="leading-relaxed">Be a star in every discussion inspire those around you</p>
           </div>
         </div>
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
@@ -248,8 +255,8 @@
               <circle cx="9" cy="7" r="4"></circle>
               <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
             </svg>
-            <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
-            <p class="leading-relaxed">Users</p>
+            <h2 class="title-font font-medium text-2xl text-gray-900">Get set for the future!</h2>
+            <p class="leading-relaxed">Effective communication is the ticket to lifelong success.</p>
           </div>
         </div>
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
@@ -258,8 +265,8 @@
               <path d="M3 18v-6a9 9 0 0118 0v6"></path>
               <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
             </svg>
-            <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
-            <p class="leading-relaxed">Files</p>
+            <h2 class="title-font font-medium text-2xl text-gray-900">Learn and develop holistically</h2>
+            <p class="leading-relaxed">Get better at comprehension and participate actively.</p>
           </div>
         </div>
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
@@ -267,8 +274,8 @@
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>
-            <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
-            <p class="leading-relaxed">Places</p>
+            <h2 class="title-font font-medium text-2xl text-gray-900">Think & speak fluently</h2>
+            <p class="leading-relaxed">Don't translate from mother tongue. Speak intuitively.</p>
           </div>
         </div>
       </div>
@@ -278,17 +285,17 @@
   <section class="text-gray-600 body-font" id="team">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+        <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">MEET OUR TEAM</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Our team is your team. When your mission is to be better, faster and smarter, you need the best people driving your vision forward. Get to know your team below.</p>
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="p-4 lg:w-1/4 md:w-1/2">
           <div class="h-full flex flex-col items-center text-center">
             <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200">
             <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
-              <h3 class="text-gray-500 mb-3">UI Developer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <h2 class="title-font font-medium text-lg text-gray-900">Paras sachdeva</h2>
+              <h3 class="text-gray-500 mb-3">Managing Director and Founder</h3>
+              <p class="mb-4">MBA in Finance and marketing – passionate about improving education in India. I consider myself a bit of a learner, a bit of a leader and a bit of a programmer and I am always excited to learn and implement new things in my life professionally and personally.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -313,9 +320,9 @@
           <div class="h-full flex flex-col items-center text-center">
             <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201">
             <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+              <h2 class="title-font font-medium text-lg text-gray-900">CEO and Co-Founder</h2>
               <h3 class="text-gray-500 mb-3">UI Developer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <p class="mb-4">MBA in Finance and marketing – Top 10 Ranks in math olympiads. I believe 1 year equals 365 opportunities. My goal is to educate every person in India.</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -340,9 +347,9 @@
           <div class="h-full flex flex-col items-center text-center">
             <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
             <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
-              <h3 class="text-gray-500 mb-3">UI Developer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <h2 class="title-font font-medium text-lg text-gray-900">Trisha Bajaj</h2>
+              <h3 class="text-gray-500 mb-3">VP,Product</h3>
+              <p class="mb-4">B-Tech from IIT Delhi</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -367,9 +374,9 @@
           <div class="h-full flex flex-col items-center text-center">
             <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203">
             <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
-              <h3 class="text-gray-500 mb-3">UI Developer</h3>
-              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <h2 class="title-font font-medium text-lg text-gray-900">Sudha Murthy</h2>
+              <h3 class="text-gray-500 mb-3">Marketing manager</h3>
+              <p class="mb-4">B-Tech from IIT Delhi</p>
               <span class="inline-flex">
                 <a class="text-gray-500">
                   <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -436,7 +443,7 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> Want to buy our course? or Want to apply for a position? For any kind of help contact us below.<br> We will be happy to help you. </p>
       </div>
       <div class="lg:w-1/2 md:w-2/3 mx-auto">
         <div class="flex flex-wrap -m-2">
@@ -459,12 +466,12 @@
             </div>
           </div>
           <div class="p-2 w-full">
-            <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+            <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Send Message</button>
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-            <a class="text-blue-500">example@email.com</a>
-            <p class="leading-normal my-5">49 Smith St.
-              <br>Saint Cloud, MN 56301
+            <a class="text-blue-500">support@studyindia.com</a>
+            <p class="leading-normal my-5">Address: Tower A, IBC Knowledge Park, 4/1, Bannerghatta Main Road, Bengaluru
+              <br>Karnataka, India
             </p>
             <span class="inline-flex">
               <a class="text-gray-500">
@@ -588,7 +595,7 @@
       </div>
     </div>
   </footer>
-  <script src="js/scripts.js"></script>
+ 
 </body>
 
 </html>
