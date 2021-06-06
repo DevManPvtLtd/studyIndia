@@ -216,10 +216,27 @@ h4{
 	box-shadow: -5px 4px 5px 1px rgb(194, 194, 194);
   z-index:100;
 }
-
+#tooltip{
+  visibility: hidden;
+  width: 120px;
+  position: absolute;
+  background-color: #25d366;
+  color:white;
+  text-align: center;
+  bottom: 70px;
+  font-size: large;
+  left: -40px;
+  padding: 2px;
+  
+}
 .my-float{
 	/* margin-top:16px; */
   padding-top: 10px;
+}
+
+.float:hover #tooltip{
+  visibility: visible;
+
 }
 #card{
   padding-left: 20px;
@@ -230,5 +247,15 @@ h4{
 }
 #product{
   background-image: repeating-linear-gradient(rgb(203, 252, 249),rgb(193, 252, 249),rgb(255, 255, 255));
+}
 
+@media (max-width: 500px) { 
+    /* #tooltip {
+      visibility: visible;
+      font-size: 17px;
+    } */
+    .float{
+      bottom: 15px;
+      right: 15px;
+    }
 }
