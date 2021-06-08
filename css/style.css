@@ -248,7 +248,24 @@ h4{
 #product{
   background-image: repeating-linear-gradient(rgb(203, 252, 249),rgb(193, 252, 249),rgb(255, 255, 255));
 }
+#review{
+  /* background-image: repeating-linear-gradient(rgb(255, 255, 255),rgb(192, 253, 250),rgb(255, 255, 255));
+   */
+   background-color: #e1fffc;
+  
+}
+#contact-us{
+  /* background-image: repeating-linear-gradient(rgb(255, 255, 255),rgb(214, 253, 251),rgb(255, 255, 255)); */
+}
+#team{
+  background-image: repeating-linear-gradient(rgb(255, 255, 255),rgb(221, 253, 251),rgb(255, 255, 255));
 
+}
+#footer{
+  background-color: #e6fcfa;
+
+
+}
 @media (max-width: 500px) { 
     /* #tooltip {
       visibility: visible;
