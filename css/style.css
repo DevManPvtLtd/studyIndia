@@ -263,9 +263,8 @@ h4{
 }
 #footer{
   background-color: #e6fcfa;
-
-
 }
+
 @media (max-width: 500px) { 
     /* #tooltip {
       visibility: visible;
@@ -274,5 +273,8 @@ h4{
     .float{
       bottom: 15px;
       right: 15px;
+    }
+    #email{
+      font-size: smaller;
     }
 }
